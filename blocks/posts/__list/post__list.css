@@ -1,0 +1,15 @@
+.post__list {
+  margin: 40px auto 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .post__list {
+    display: none;
+  }
+}

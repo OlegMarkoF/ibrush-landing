@@ -1,0 +1,44 @@
+.input__rating-area {
+	overflow: hidden;
+	width: max-content;
+	margin: 10px 0 30px;
+  padding: 0;
+}
+.input__rating-area:not(:checked) > input {
+	display: none;
+}
+.input__rating-area:not(:checked) > label {
+	float: right;
+	width: 35px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 35px;
+	line-height: 25px;
+	color: rgba(151, 151, 151, 1);
+  /* border: 1px solid rgba(151, 151, 151, 1); */
+	/* text-shadow: 1px 1px #bbb; */
+}
+.input__rating-area:not(:checked) > label::before {
+	content: '★';
+}
+.input__rating-area > input:checked ~ label {
+  content: '★';
+	color: rgba(255, 180, 0, 1);
+  ;
+	/* text-shadow: 1px 1px #c60; */
+}
+.input__rating-area:not(:checked) > label:hover,
+.input__rating-area:not(:checked) > label:hover ~ label {
+	color: rgba(255, 180, 0, 1);
+}
+.input__rating-area > input:checked + label:hover,
+.input__rating-area > input:checked + label:hover ~ label,
+.input__rating-area > input:checked ~ label:hover,
+.input__rating-area > input:checked ~ label:hover ~ label,
+.input__rating-area > label:hover ~ input:checked ~ label {
+	color: rgba(255, 180, 0, 1);
+	/* text-shadow: 1px 1px goldenrod; */
+}
+.input__rating-area > label:active {
+	position: relative;
+}

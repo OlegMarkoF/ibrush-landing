@@ -1,0 +1,20 @@
+.quote__text {
+  margin: 0;
+  padding: 12px 0 0;
+  width: 680px;
+  font-family: OpenSans;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(26, 26, 26, 1);
+}
+
+@media screen and (max-width: 768px) {
+  .quote__text {
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

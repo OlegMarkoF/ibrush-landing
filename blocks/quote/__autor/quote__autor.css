@@ -1,0 +1,17 @@
+.quote__autor {
+  margin: 25px 0 0;
+  padding: 0;
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(119, 119, 119, 1);
+}
+
+@media screen and (max-width: 768px) {
+  .quote__autor {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,61 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/posts/posts.css);
+@import url(../blocks/posts/__list/post__list.css);
+@import url(../blocks/posts/__text/post__text.css);
+@import url(../blocks/posts/__title/post__title.css);
+
+@import url(../blocks/conclusion/conclusion.css);
+@import url(../blocks/conclusion/__box/conclusion__box.css);
+@import url(../blocks/conclusion/__text/conclusion__text.css);
+@import url(../blocks/conclusion/__title/conclusion__title.css);
+
+@import url(../blocks/advertising/advertising.css);
+@import url(../blocks/advertising/__box/advertising__box.css);
+@import url(../blocks/advertising/__image/advertising__image.css);
+@import url(../blocks/advertising/__text/advertising__text.css);
+
+@import url(../blocks/quote/quote.css);
+@import url(../blocks/quote/__title/quote__title.css);
+@import url(../blocks/quote/__content/quote__content.css);
+@import url(../blocks/quote/__text/quote__text.css);
+@import url(../blocks/quote/__autor/quote__autor.css);
+@import url(../blocks/quote/__image/quote__image.css);
+@import url(../blocks/quote/__box/quote__box.css);
+
+@import url(../blocks/books/books.css);
+@import url(../blocks/books/__date/books__date.css);
+@import url(../blocks/books/__caption/lead__caption.css);
+@import url(../blocks/books/__triangle-white/books__triangle-white.css);
+@import url(../blocks/books/__triangle/books__triangle.css);
+@import url(../blocks/books/__image/books__image.css);
+@import url(../blocks/books/__month/books__month.css);
+@import url(../blocks/books/__number/books__number.css);
+
+@import url(../blocks/inputs/inputs.css);
+@import url(../blocks/inputs/__box/inputs__box.css);
+@import url(../blocks/inputs/__block/input__block.css);
+@import url(../blocks/inputs/__rating-area/input__rating-area.css);
+@import url(../blocks/inputs/__button/input__button.css);
+@import url(../blocks/inputs/__item/input__item.css);
+@import url(../blocks/inputs/__block/__type/_text/input__block__type_text.css);
+@import url(../blocks/inputs/__text/input__text.css);
+@import url(../blocks/inputs/__form/input__form.css);
+@import url(../blocks/inputs//__item/_datalist/input__item_datalist.css);
+
+
+@import url(../blocks/slideshow-container/slideshow-container.css);
+@import url(../blocks/slideshow-container/__arrows/slideshow-container__arrows.css);
+@import url(../blocks/slideshow-container/__mySlides/slideshow-container__mySlides.css);
+@import url(../blocks/slideshow-container/__fade/slideshow-container__fade.css);
+@import url(../blocks/slideshow-container/__prev/slideshow-container__prev.css);
+@import url(../blocks/slideshow-container/__next/slideshow-container__next.css);
+@import url(../blocks/slideshow-container/__prev/_arrow/slideshow-container__prev_arrow.css);
+@import url(../blocks/slideshow-container/__next/_arrow/slideshow-container__next_arrow.css);

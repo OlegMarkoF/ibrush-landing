@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Consolas";
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./fonts/1db29588408eadbd4406aae9238555eb.woff")format("woff");
+    src: url("./fonts/1db29588408eadbd4406aae9238555eb.woff2")format("woff2");
+}
+
+@font-face {
+  font-family: "Arial";
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/Arial.woff")format("woff");
+  src: url("./fonts/Arial.woff2")format("woff2");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/OpenSans.woff")format("woff");
+  src: url("./fonts/OpenSans.woff2")format("woff2");
+}
+

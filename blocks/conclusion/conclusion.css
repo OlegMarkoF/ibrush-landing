@@ -1,0 +1,11 @@
+.conclusion {
+  margin: 0 auto;
+  padding: 45px 0 74px;
+  max-width: 738px;
+}
+
+@media screen and (max-width: 768px) {
+  .conclusion {
+    padding: 25px 20px 30px;
+  }
+}

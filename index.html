@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pages/index.css" />
+    <meta name="autor" content="Олег Марков" />
+    <title>IBRUSH</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header__box">
+          <h1 class="header__title">Путь JavaScript</h1>
+        </div>
+      </header>
+      <main class="content">
+
+        <section class="books">
+          <div class="books__image"></div>
+          <div class="books__date">
+            <h2 class="books__number">12</h2>
+            <p class="books__month">Апреля</p>
+            <img class="books__triangle" src="images/Triangle.png" alt="стрелка"/>
+          </div>
+          <img class="books__triangle-white" src="images/Triangle_white.png" alt="стрелка"/>
+          <p class="lead__caption">
+            Можно выделить три основных направления для прогресса JavaScript
+          </p>
+        </section>
+
+        <blockquote class="quote">
+          <h2 class="quote__title">Серверный JavaScript</h2>
+          <div class="quote__content">
+            <img class="quote__image"
+            src="images/quotation.svg"
+            alt="кавычки"/>
+            <div class="quote__box">
+              <p class="quote__text">
+                Разработчики и клиенты часто неправильно понимают, что такое&nbsp;система.
+                Они видят графический интерфейс и думают, что он и есть
+                система. Они определяют систему в терминах графического интерфейса и
+                считают, что должны сразу начать работу с графическим интерфейсом.
+                Они не понимают важнейшего принципа: ввод/вывод не важен.
+              </p>
+              <cite class="quote__autor">— Р. Мартин</cite>
+            </div>
+          </div>
+        </blockquote>
+
+        <section class="advertising">
+          <div class="advertising__box">
+          <p class="advertising__text">
+            Реклама на
+            <a class="advertising__link" href="http://blabla.com/"
+              >blabla.com</a
+            >
+          </p>
+          <div
+            class="advertising__image"
+          ></div>
+         </div>
+        </section>
+
+        <section class="conclusion">
+          <div class="conclusion__box">
+            <h2 class="conclusion__title">Заключение</h2>
+            <p class="conclusion__text">
+              Синхрония осознаёт сюжетный верлибр. Мифопорождающее текстовое
+              устройство диссонирует лирический субъект. Абстрактное
+              высказывание пространственно просветляет деструктивный символ.
+              Ямб, несмотря на то, что все эти характерологические черты
+              отсылают не к единому образу нарратора, интегрирует
+              мифопоэтический хронотоп. Действительно, ударение приводит
+              палимпсест. Контрапункт приводит ритм.
+            </p>
+          </div>
+        </section>
+
+        <section class="inputs">
+          <div class="inputs__box">
+            <div class="input__grade">
+              <p class="input__text">Оцените статью</p>
+              <div class="input__rating-area">
+                <input type="radio" id="star-5" name="rating" value="5">
+                <label for="star-5" title="Оценка «5»"></label>
+                <input type="radio" id="star-4" name="rating" value="4">
+                <label for="star-4" title="Оценка «4»"></label>
+                <input type="radio" id="star-3" name="rating" value="3">
+                <label for="star-3" title="Оценка «3»"></label>
+                <input type="radio" id="star-2" name="rating" value="2">
+                <label for="star-2" title="Оценка «2»"></label>
+                <input type="radio" id="star-1" name="rating" value="1">
+                <label for="star-1" title="Оценка «1»"></label>
+              </div>
+            </div>
+            <p class="input__text">Добавить комментарий к книге</p>
+            <div class="input__block">
+              <input class="input__item input__block__type_name" type="text" placeholder="Имя"/>
+              <input class="input__item input__block__type_email" type="email" placeholder="E-mail"/>
+              <form class="input__form">
+                <input list="books" class="input__item input__block__type_list" list="Выберите книгу" placeholder="Выберите книгу">
+                <datalist id="books" name="books" class="input__item_datalist">
+                  <option value="">Выберите книгу</option>
+                  <option value="JavaScript ниндзя">JavaScript ниндзя</option>
+                  <option value="Pragmatic Guide to JavaScript">Pragmatic Guide to JavaScript</option>
+                  <option value="Pro JavaScript Techniques">Pro JavaScript Techniques</option>
+                  <option value="Выразительный JavaScript">Выразительный JavaScript</option>
+                </datalist>
+              </form>
+            </div>
+            <input class="input__block__type_text" type="text" placeholder="Ваш отзыв"/>
+            <button class="input__button">Отправить</button>
+        </section>
+
+        <section class="posts">
+          <h2 class="post__title">Похожие посты</h2>
+          <ul class="post__list">
+            <li class="post__about">
+              <img
+                class="lead__image"
+                src="images/react.png"
+                alt="пост про react"
+              />
+              <p class="post__text">События жизненного цикла ReactJS</p>
+            </li>
+            <li class="post__about">
+              <img
+                class="lead__image"
+                src="images/grid.png"
+                alt="пост про grid"
+              />
+              <p class="post__text">CSS Grids. Полное руководство</p>
+            </li>
+            <li class="post__about">
+              <img class="lead__image" src="images/JS.png" alt="пост про JS" />
+              <p class="post__text">Асинхронность в JavaScript</p>
+            </li>
+          </ul>
+
+          <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="./images/react.png" style="width:100%">
+              <p class="post__text">События жизненного цикла ReactJS</p>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="./images/grid.png" style="width:100%">
+              <p class="post__text">CSS Grids. Полное руководство</p>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="./images/JS.png" style="width:100%">
+              <p class="post__text">Асинхронность в JavaScript</p>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div style="text-align: center; margin-top: 20px;">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+          </div>
+
+
+        </section>
+
+      </main>
+    </div>
+
+    <script>
+      let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+    </script>
+  </body>
+</html>

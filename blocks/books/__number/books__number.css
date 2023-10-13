@@ -1,0 +1,10 @@
+.books__number {
+  margin: 25px auto 0;
+  padding: 0;
+  font-family: Merriweather;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+}

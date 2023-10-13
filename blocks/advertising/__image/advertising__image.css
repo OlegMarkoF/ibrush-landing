@@ -1,0 +1,13 @@
+.advertising__image {
+  background: url("../../../images/Реклама.png");
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .advertising__image {
+    background: url("../../../images/Photo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

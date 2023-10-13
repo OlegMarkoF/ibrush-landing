@@ -1,0 +1,16 @@
+.books {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 738px;
+  position: relative;
+  border-bottom: 0.5px solid rgba(220, 220, 220, 1);
+}
+
+@media screen and (max-width: 768px) {
+  .books {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    border: none;
+  }
+}

@@ -1,1 +1,2 @@
-# ibrush-landing
+# Одностаничный сайт для компании IBRUSH
+## Примененные технологии: HTML, CSS, JavaScript

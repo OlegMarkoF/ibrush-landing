@@ -1,0 +1,11 @@
+.input__form {
+  padding: 0;
+  margin: 0;
+  /* width: 100%; */
+}
+
+@media screen and (max-width: 768px) {
+  .input__form {
+    width: 100%;
+  }
+}

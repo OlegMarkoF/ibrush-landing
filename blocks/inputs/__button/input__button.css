@@ -1,0 +1,22 @@
+.input__button {
+  margin: 20px 0 0;
+  padding: 14px 0;
+  width: 226px;
+  background: rgba(0, 98, 255, 1);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .input__button {
+    width: 100%;
+  }
+}

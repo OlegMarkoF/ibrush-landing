@@ -1,0 +1,15 @@
+.books__date {
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  top: 13px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.9);
+
+}
+
+@media screen and (max-width: 768px) {
+  .books__date {
+    display: none;
+  }
+}

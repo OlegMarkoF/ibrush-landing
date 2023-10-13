@@ -1,0 +1,10 @@
+.books__triangle-white {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 12px;
+  height: 9px;
+  bottom: 88px;
+  left: 80px;
+  z-index: 3;
+}
