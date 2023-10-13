@@ -22,7 +22,6 @@
 	content: '★';
 }
 .input__rating-area > input:checked ~ label {
-  content: '★';
 	color: rgba(255, 180, 0, 1);
   ;
 	/* text-shadow: 1px 1px #c60; */
