@@ -4,8 +4,45 @@
   max-width: 738px;
 }
 
+.post__text {
+  margin: 20px 0 0;
+  padding: 0;
+  width: 208px;
+  height: 48px;
+  font-family: Consolas;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.post__title {
+  margin: 0;
+  padding: 0;
+  font-family: Consolas;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 201px;
+}
+
+.post__list {
+  margin: 40px auto 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
 @media screen and (max-width: 768px) {
   .posts {
     padding: 36px 20px 0;
+  }
+  .post__list {
+    display: none;
   }
 }

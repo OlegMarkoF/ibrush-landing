@@ -4,6 +4,34 @@
   max-width: 738px;
 }
 
+.conclusion__box {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 738px;
+}
+
+.conclusion__text {
+  margin: 26px 0 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Arial";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.conclusion__title {
+  margin: 0;
+  padding: 0;
+  width: 182px;
+  font-family: Consolas;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0px;
+}
+
 @media screen and (max-width: 768px) {
   .conclusion {
     padding: 25px 20px 30px;

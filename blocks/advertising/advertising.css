@@ -5,8 +5,36 @@
   background: rgba(237, 237, 237, 1);
 }
 
+.advertising__box {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 610px;
+}
+
+.advertising__image {
+  background: url("../../../images/Реклама.png");
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+.advertising__text {
+  margin: 0 0 17px;
+  padding: 0;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+}
+
 @media screen and (max-width: 768px) {
   .advertising {
     padding: 22px 20px 20px;
   }
+  .advertising__image {
+    background: url("../../../images/Photo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
 }
