@@ -12,7 +12,7 @@
 }
 
 .advertising__image {
-  background: url("../../../images/Реклама.png");
+  background: url("../../images/Реклама.png");
   background-repeat: no-repeat;
   height: 200px;
 }
@@ -32,7 +32,7 @@
     padding: 22px 20px 20px;
   }
   .advertising__image {
-    background: url("../../../images/Photo.png");
+    background: url("../../images/Photo.png");
     background-repeat: no-repeat;
     background-position: center;
   }
