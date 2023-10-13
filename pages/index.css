@@ -1,6 +1,6 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts.css);
-@import url(../blocks/page/page.css);
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts.css");
+@import url("../blocks/page/page.css");
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
@@ -28,7 +28,7 @@
 @import url(../blocks/quote/__text/quote__text.css);
 @import url(../blocks/quote/__autor/quote__autor.css);
 @import url(../blocks/quote/__image/quote__image.css);
-@import url(../blocks/quote/__box/quote__box.css);
+@import url("../blocks/quote/__box/quote__box.css");
 
 @import url(../blocks/books/books.css);
 @import url(../blocks/books/__date/books__date.css);
